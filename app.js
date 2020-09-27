@@ -10,9 +10,10 @@ value.addEventListener('keyup', function (e) {
 });
 
 function getItem() {
-    lists.innerHTML += `<p>${value.value} <button id="edit-btn">Edit</button> <button id="del-btn">X</button></p>`;
+    lists.innerHTML += `<p id="item">${value.value} <button id="edit-btn">Edit</button> <button id="del-btn">X</button></p>`;
     value.value = '';
     deleteItem();
+    editItem();
 }
 
 function deleteItem() {
@@ -25,7 +26,15 @@ function deleteItem() {
 }
 
 function editItem() {
-
+    const editBtns = document.querySelectorAll('#edit-btn');
+    console.log(editBtns);
+    editBtns.forEach(function (btn) {
+        btn.addEventListener('click', function (e) {
+            let toDoItem = e.target.parentNode;
+            toDoItem.setAttribute('contenteditable', true);
+            toDoItem.focus();
+        });
+    });
 }
 
 resetBtn.addEventListener('click', function () {
