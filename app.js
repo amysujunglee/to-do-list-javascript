@@ -8,7 +8,6 @@ value.addEventListener('keyup', function (e) {
     }
 });
 
-
 function getItem() {
     lists.innerHTML += `<p>${value.value} <button id="edit-btn">Edit</button> <button id="del-btn">X</button></p>`;
     value.value = '';
@@ -16,9 +15,10 @@ function getItem() {
 }
 
 function deleteItem() {
-    const delBtn = document.getElementById('del-btn');
-    delBtn.addEventListener('click', function () {
-        console.log('delete!');
-    })
-
+    const delBtns = document.querySelectorAll('#del-btn');
+    delBtns.forEach(function (btn) {
+        btn.addEventListener('click', function (e) {
+            e.target.parentNode.remove();
+        })
+    });
 }
