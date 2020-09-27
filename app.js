@@ -9,5 +9,6 @@ value.addEventListener('keyup', function (e) {
 });
 
 function getList() {
-    return lists.innerHTML += `<p>${value.value}</p>`;
+    lists.innerHTML += `<p>${value.value}</p>`;
+    value.value = '';
 }
