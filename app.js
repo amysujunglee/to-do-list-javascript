@@ -1,14 +1,24 @@
 const value = document.querySelector('.value');
+const lists = document.querySelector('.to-do-list');
 const addBtn = document.getElementById('add-btn');
-const lists = document.querySelector('.to-do-list')
 
 value.addEventListener('keyup', function (e) {
     if (e.keyCode === 13) {
-        getList()
+        getItem()
     }
 });
 
-function getList() {
-    lists.innerHTML += `<p>${value.value} <button class="del-btn">Edit</button> <button class="del-btn">X</button></p>`;
+
+function getItem() {
+    lists.innerHTML += `<p>${value.value} <button id="edit-btn">Edit</button> <button id="del-btn">X</button></p>`;
     value.value = '';
+    deleteItem();
+}
+
+function deleteItem() {
+    const delBtn = document.getElementById('del-btn');
+    delBtn.addEventListener('click', function () {
+        console.log('delete!');
+    })
+
 }
