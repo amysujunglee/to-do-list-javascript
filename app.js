@@ -38,5 +38,5 @@ function editItem() {
 }
 
 resetBtn.addEventListener('click', function () {
-    lists.remove();
+    lists.innerHTML = '';
 });
