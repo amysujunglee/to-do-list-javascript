@@ -12,3 +12,5 @@ Steps:
 - Press 'Enter' key or 'Add' button to add a to-do on the list
 - Clear the input field after adding a to-do
 - Delect each to-do when user clicks 'X'
+- Edit each to-do when user clicks 'Edit'
+
