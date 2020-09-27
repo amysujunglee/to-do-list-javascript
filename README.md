@@ -9,8 +9,8 @@ Languages used:
 Steps:
 
 - Type a to-do
-- Press 'Enter' key or 'Add' button to add a to-do on the list
-- Clear the input field after adding a to-do
-- Delect each to-do when user clicks 'X' button
-- Edit each to-do when user clicks 'Edit' button
-- Clear the to-do list when user clicks 'Reset' button
+- Press 'Enter' key or 'Add' button to add a to-do item on the list
+- Clear the input field after adding a to-do item
+- Delect each item when user clicks 'X' button
+- Edit each item when user clicks 'Edit' button
+- Clear the item list when user clicks 'Reset' button
