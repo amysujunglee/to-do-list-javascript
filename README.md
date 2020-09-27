@@ -13,4 +13,4 @@ Steps:
 - Clear the input field after adding a to-do
 - Delect each to-do when user clicks 'X'
 - Edit each to-do when user clicks 'Edit'
-
+- Clear the to-do list when user clicks 'Reset' button
