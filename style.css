@@ -38,4 +38,26 @@ h1 {
     padding: 1.25rem;
 }
 
-.btn {}
+input {
+    height: 30px;
+    border: 1px solid #005f8e;
+    padding: .5rem;
+}
+
+input::placeholder {
+    color: #888;
+}
+
+.btn {
+    width: 80px;
+    height: 30px;
+    background-color: #005f8e;
+    color: #fff;
+    border: 0;
+}
+
+.to-do-list {
+    margin: 0 auto;
+    width: 45%;
+    text-align: left;
+}
