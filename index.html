@@ -3,15 +3,23 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
     <title>To-Do List App - vanilla JavaScript</title>
 </head>
 
 <body>
-    <h1>To-Do List App - vanilla JavaScript</h1>
-    <input class="value" type="text" onfocus="this.value=''" value="Add a to-do here...">
-    <button class="btn" id="add-btn" onclick="getList()">Add</button>
-    <button class="btn" id="reset-btn">Reset</button>
-    <div class="to-do-list"></div>
+    <nav>
+        <h1>To-Do List App - JavaScript <span class="author">by Amy Lee</span></h1>
+    </nav>
+    <main>
+        <div class="container">
+            <input class="value" type="text" onfocus="this.value=''" value="Add a to-do here...">
+            <button class="btn" id="add-btn" onclick="getList()">Add</button>
+            <button class="btn" id="reset-btn">Reset</button>
+            <div class="to-do-list"></div>
+        </div>
+    </main>
+
 
     <script src="app.js"></script>
 </body>
