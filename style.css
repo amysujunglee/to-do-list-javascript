@@ -61,3 +61,7 @@ input::placeholder {
     width: 45%;
     text-align: left;
 }
+
+#del-btn {
+    float: right;
+}
