@@ -38,6 +38,11 @@ h1 {
     padding: 1.25rem;
 }
 
+.result {
+    margin: 0 auto;
+    width: 80%;
+}
+
 input {
     height: 30px;
     border: 1px solid #005f8e;
@@ -58,8 +63,8 @@ input::placeholder {
 
 .to-do-list {
     margin: 0 auto;
-    width: 45%;
     text-align: left;
+    padding: 0 5rem;
 }
 
 .to-do {
