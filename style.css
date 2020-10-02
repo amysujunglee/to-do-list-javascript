@@ -61,3 +61,13 @@ input::placeholder {
     width: 45%;
     text-align: left;
 }
+
+.to-do {
+    display: flex;
+    justify-content: space-between;
+    margin: .85rem 0;
+}
+
+#item {
+    margin: 0;
+}

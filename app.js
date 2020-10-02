@@ -10,7 +10,14 @@ value.addEventListener('keyup', function (e) {
 });
 
 function getItem() {
-    lists.innerHTML += `<p id="item">${value.value} <button id="edit-btn">Edit</button> <button id="del-btn">X</button></p>`;
+    lists.innerHTML +=
+        `<div class="to-do">
+            <p id="item">${value.value}</p>
+            <div>
+                <button id="edit-btn">Edit</button>
+                <button id="del-btn">X</button>
+            </div>
+        </div>`;
     value.value = '';
     deleteItem();
     editItem();
