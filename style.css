@@ -57,6 +57,11 @@ input::placeholder {
   border: 0;
 }
 
+#del-btn {
+  font-weight: bold;
+  color: #a20000;
+}
+
 .to-do-list {
   margin: 0 auto;
   /* width: 45%; */
