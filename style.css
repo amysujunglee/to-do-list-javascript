@@ -17,7 +17,7 @@ main {
 button {
   width: auto;
   background-color: #fff;
-  border: 1px solid #000;
+  border: none;
   text-transform: uppercase;
 }
 
@@ -59,7 +59,7 @@ input::placeholder {
 
 .to-do-list {
   margin: 0 auto;
-  width: 45%;
+  /* width: 45%; */
   text-align: left;
 }
 
