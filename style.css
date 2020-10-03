@@ -18,7 +18,6 @@ button {
   width: auto;
   background-color: #fff;
   border: none;
-  text-transform: uppercase;
 }
 
 h1 {
@@ -55,6 +54,11 @@ input::placeholder {
   background-color: #005f8e;
   color: #fff;
   border: 0;
+}
+
+#edit-btn {
+  color: #888;
+  text-decoration: underline;
 }
 
 #del-btn {
