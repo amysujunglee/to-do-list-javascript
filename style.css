@@ -1,67 +1,68 @@
 body {
-    background-color: #A0D7F2;
-    font-family: Arial, Helvetica, sans-serif;
-    margin: 0;
+  background-color: #a0d7f2;
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
 }
 
 nav {
-    background-color: #fff;
-    padding: 1rem;
+  background-color: #fff;
+  padding: 1rem;
 }
 
 main {
-    text-align: center;
-    padding-top: 3rem;
+  text-align: center;
+  padding-top: 3rem;
 }
 
 button {
-    width: auto;
-    background-color: #fff;
-    border: 1px solid #000;
-    text-transform: uppercase;
+  width: auto;
+  background-color: #fff;
+  border: 1px solid #000;
+  text-transform: uppercase;
 }
 
 h1 {
-    text-align: center;
+  text-align: center;
 }
 
 .author {
-    font-size: 0.875rem;
-    font-weight: normal;
+  font-size: 0.875rem;
+  font-weight: normal;
 }
 
 .container {
-    background-color: #fff;
-    width: 50%;
-    margin: 0 auto;
-    margin-bottom: .5rem;
-    padding: 1.25rem;
+  background-color: #fff;
+  width: 50%;
+  margin: 0 auto;
+  margin-bottom: 0.5rem;
+  padding: 1.25rem;
 }
 
 input {
-    height: 30px;
-    border: 1px solid #005f8e;
-    padding: .5rem;
+  height: 30px;
+  border: 1px solid #005f8e;
+  padding: 0.5rem;
+  margin-bottom: 0.5rem;
 }
 
 input::placeholder {
-    color: #888;
+  color: #888;
 }
 
 .btn {
-    width: 80px;
-    height: 30px;
-    background-color: #005f8e;
-    color: #fff;
-    border: 0;
+  width: 80px;
+  height: 30px;
+  background-color: #005f8e;
+  color: #fff;
+  border: 0;
 }
 
 .to-do-list {
-    margin: 0 auto;
-    width: 45%;
-    text-align: left;
+  margin: 0 auto;
+  width: 45%;
+  text-align: left;
 }
 
 #del-btn {
-    float: right;
+  float: right;
 }
