@@ -10,7 +10,7 @@ value.addEventListener('keyup', function (e) {
 });
 
 function getItem() {
-    lists.innerHTML += `<p id="item">${value.value} <button id="edit-btn">Edit</button> <button id="del-btn">X</button></p>`;
+    lists.innerHTML += `<div id="item"><span class="to-do">${value.value}</span> <button id="edit-btn">Edit</button> <button id="del-btn">X</button></div>`;
     value.value = '';
     deleteItem();
     editItem();
@@ -29,7 +29,7 @@ function editItem() {
     const editBtns = document.querySelectorAll('#edit-btn');
     editBtns.forEach(function (btn) {
         btn.addEventListener('click', function (e) {
-            let toDoItem = e.target.parentNode;
+            let toDoItem = e.target.parentNode.querySelector('.to-do');
             toDoItem.setAttribute('contenteditable', true);
             toDoItem.focus();
         });
