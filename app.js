@@ -27,7 +27,6 @@ function deleteItem() {
 
 function editItem() {
     const editBtns = document.querySelectorAll('#edit-btn');
-    console.log(editBtns);
     editBtns.forEach(function (btn) {
         btn.addEventListener('click', function (e) {
             let toDoItem = e.target.parentNode;
