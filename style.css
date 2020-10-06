@@ -71,6 +71,9 @@ input::placeholder {
   /* width: 45%; */
   text-align: left;
 }
+#item {
+  margin: 0.75rem 0;
+}
 
 #del-btn {
   float: right;
