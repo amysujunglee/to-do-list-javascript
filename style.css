@@ -59,7 +59,8 @@ input::placeholder {
   text-align: left;
 }
 #item {
-  margin: 0.75rem 0;
+  padding: 0.75rem 0;
+  border-bottom: 1px solid #ddd;
 }
 #del-btn {
   float: right;
