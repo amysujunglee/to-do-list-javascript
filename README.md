@@ -1,13 +1,10 @@
-# to-do-list-javascript
-
+# To-Do List - javaScript
 A To-Do List App in vanilla JavaScript
 
-Languages used:
-
+## Languages
 - JavaScript, HTML, CSS
 
-Steps:
-
+## Steps
 - Type a to-do
 - Press 'Enter' key or 'Add' button to add a to-do item on the list
 - Clear the input field after adding a to-do item
